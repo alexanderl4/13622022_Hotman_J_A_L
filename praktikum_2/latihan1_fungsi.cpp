@@ -9,8 +9,8 @@ using namespace std;
 
 // # Menggunakan void, bukan double
 void hitungVolumeBalok(double panjang, double lebar, double tinggi) {
-    double volume = panjang * lebar * tinggi; // # Menghitung volume
-    cout << "Volume balok: " << volume << endl; // # Langsung mencetak hasil dari dalam fungsi
+    double volume = panjang * lebar * tinggi; 
+    cout << "Volume balok: " << volume << endl; // # Mencetak hasil langsung dari dalam fungsi
 }
 
 int main() {
