@@ -7,7 +7,7 @@ void kuadratkan(int *val) {
 }
 
 int main() {
-    int angka = 5; // # Deklarasi variabel
+    int angka = 5; 
 
     cout << "Nilai awal : " << angka << endl;
     
