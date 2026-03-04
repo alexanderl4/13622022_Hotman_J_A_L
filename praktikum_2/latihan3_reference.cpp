@@ -1,18 +1,17 @@
 /*
  * EXPLORATION ANSWER:
  * If we remove the '&' symbol, C++ uses 'Pass by Value'.
- * The function only receives a "photocopy" of the variables. It swaps the copies inside the function,
+ * The function only receives a "photocopy" of the variables. It swaps the copies inside its scope,
  * but the original variables 'x' and 'y' in main() remain untouched and do not swap.
- * (Below is the original working code with '&' to demonstrate the correct Pass by Reference).
  */
 #include <iostream>
 using namespace std;
 
-// # Menggunakan & (reference) agar bisa memodifikasi variabel asli
+// # Menggunakan & (reference) agar bisa memodifikasi variabel asli di memori
 void tukarNilai(int &a, int &b) {
-    int sementara = a; // # Simpan nilai A
-    a = b;             // # Timpa A dengan B
-    b = sementara;     // # Isi B dengan nilai A yang lama
+    int sementara = a; 
+    a = b;             
+    b = sementara;     
 }
 
 int main() {
