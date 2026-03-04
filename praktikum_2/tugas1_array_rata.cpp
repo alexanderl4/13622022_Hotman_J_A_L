@@ -3,7 +3,7 @@ using namespace std;
 
 // # Fungsi menghitung rata-rata (Parameter: Array 1D dan ukuran array)
 double hitungRataRata(double arr[], int ukuran) {
-    double total = 0.0; // # Akumulator
+    double total = 0.0; 
     for (int i = 0; i < ukuran; i++) {
         total += arr[i]; // # Menjumlahkan semua elemen array
     }
