@@ -8,13 +8,13 @@
 using namespace std;
 
 int main() {
-    int angka = 100; // # Variabel biasa
+    int angka = 100; 
     int *ptr_angka = &angka; // # Pointer menyimpan alamat memori 'angka'
 
     cout << "Nilai awal variabel angka: " << angka << endl;
     cout << "Alamat memori angka (&angka): " << &angka << endl;
 
-    *ptr_angka = 500; // # Memanipulasi memori secara langsung via pointer (Eksplorasi)
+    *ptr_angka = 500; // # Memanipulasi memori secara langsung via pointer
 
     cout << "Nilai akhir variabel angka setelah diubah via pointer: " << angka << endl;
     
