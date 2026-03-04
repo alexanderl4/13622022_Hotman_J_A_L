@@ -19,7 +19,7 @@ int main() {
     // # Eksplorasi: Loop Kolom di luar, Baris di dalam
     for(int j = 0; j < 3; j++) {
         for(int i = 0; i < 2; i++) {
-            int hasil = matriks[i][j] * pengali; // # Proses perkalian
+            int hasil = matriks[i][j] * pengali; 
             cout << hasil << "\t"; // # Cetak dengan jarak tab
         }
         cout << endl; // # Pindah baris setelah 1 kolom selesai dibaca ke bawah
